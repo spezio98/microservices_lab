@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["notification"],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "NjFmZTM2NzZkNGE5YmVkNDIyZjY5NDA4MmYwNGVlZmI0OWViNzA2MDU5NTNkMmRjYWNhMDBkOWQ3NDIwYjQ0MTAxZDYzODllMDUwOGFjNzg5NTViNjI1OWU5ZDUzZmVkZGI0Mg==",
+    "dockerRepositoryName": "andreaspeziale",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "store",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false
+  }
+}
